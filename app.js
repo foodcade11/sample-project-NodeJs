@@ -19,3 +19,7 @@ app.get('/adduser',function(req,res){
     res.render('adduser' );
     // console.log(req.query);
 });
+app.get('/view',function(req,res){
+    res.render('view' );
+    // console.log(req.query);
+});
